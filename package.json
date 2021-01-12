@@ -29,7 +29,9 @@
   },
   "dependencies": {
     "@urql/svelte": "^1.1.4",
+    "gql-query-builder": "^3.5.5",
     "graphql": "^15.4.0",
+    "graphql-query-builder": "^1.0.7",
     "sirv-cli": "^1.0.0"
   }
 }

@@ -5,6 +5,9 @@
 
   initClient({
     url: 'https://crisp-mantis-27.hasura.app/v1/graphql',
+    fetchOptions: () => ({
+      headers: { 'x-hasura-admin-secret': 'z4KVqdafxRqAnS4' },
+    }),
   })
 </script>
 
